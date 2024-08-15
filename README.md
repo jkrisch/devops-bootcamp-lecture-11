@@ -93,4 +93,12 @@ kubectl create ns my-java-app-ns
 helm install --namespace my-java-app-ns --values $EXERCISE_HOME/java-app/values.yaml my-java-app java-app
 ```
 
+
+
 ## Exercise 4: Automate Deployment
+**_Requirement_**
+- Jenkins instance running (in this case on droplet on digital ocean)
+- firewall opened for this vm
+- Credentials in Jenkins credential store
+- Webhook trigger from Github Repo to Jenkins instance
+- solutions see: (https://github.com/jkrisch/devops-bootcamp-lecture-11-auto-deployment)
