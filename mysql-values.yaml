@@ -1,0 +1,6 @@
+auth:
+  rootPassword: testing
+  database: my-app-db
+  username: my-user
+  password: my-pass
+

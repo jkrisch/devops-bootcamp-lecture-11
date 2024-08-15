@@ -1,0 +1,3 @@
+db:
+  host: mysql-jk
+  port: 3306
